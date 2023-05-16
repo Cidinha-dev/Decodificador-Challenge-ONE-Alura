@@ -1,0 +1,36 @@
+.container{
+    margin: 1rem;
+}
+#digiteTexto{
+    width: 60%;
+    height: 40vh;
+}
+
+
+/* container descrição e submição*/
+.ContainerTextDescription{
+    display:flex;
+    margin: 1rem;
+    align-items: center;
+}
+.textDescription{
+    padding-left:  1rem;
+}
+
+/* botão de submição */
+.buttonSubmit{
+    display: block;
+    width: 100%;
+}
+
+@media only screen and (max-width: 800px) {
+    #digiteTexto{
+        width: 100%;
+        height: 30vh;
+    }
+    .buttonSubmit{
+        display: block;
+        width: 100%;
+    }
+    
+  }
